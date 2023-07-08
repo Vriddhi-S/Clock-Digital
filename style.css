@@ -8,12 +8,12 @@ body{
     justify-content: center;
     background: url("https://wallpapers.com/images/hd/dark-man-standing-idawk015ad468bbi.jpg")no-repeat;
     overflow: hidden;
-    background-size: cover;
+    
 }
 
 @media screen and (min-height:700){
     body{
-        background-color: #808080;
+        background-color: #80808093;
     }
 }
 h2 span{

@@ -8,7 +8,7 @@ body{
     justify-content: center;
     background: url("https://wallpapers.com/images/hd/dark-man-standing-idawk015ad468bbi.jpg")no-repeat;
     overflow: hidden;
-    
+    background-size: cover;
 }
 
 @media screen and (min-height:700){
@@ -39,14 +39,14 @@ h2{
 }
 
 .clock div{
-    margin: 5px;
-    position: relative;
+    margin: 2vh;
+    
 }
 
 .clock span{
     font-size: 29px;
-    width: 100px;
-    height: 80px;
+    width: 15vh;
+    height: 70%;
     display:flex;
     background: grey;
     opacity: .6;
@@ -63,7 +63,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 30%;
     text-transform: uppercase;
     opacity: .8;
     background-color: darkslategray;
@@ -74,9 +74,8 @@ h2{
 }
 
 .clock #ampm{
-    bottom: 0;
-    position: absolute;
-    height: 30px;
+    position:fixed;
+    height: 9%;
     font-size: 20px;
     color: azure;
     opacity: .9px;

@@ -11,6 +11,11 @@ body{
     background-size: cover;
 }
 
+@media screen (height>700){
+    body{
+        background-color::content
+    }
+}
 h2 span{
     font-size:34px;
     letter-spacing: 3px;

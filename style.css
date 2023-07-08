@@ -11,9 +11,9 @@ body{
     background-size: cover;
 }
 
-@media screen (height>700){
+@media screen and (min-height:700){
     body{
-        background-color::content
+        background-color: #808080;
     }
 }
 h2 span{

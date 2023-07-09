@@ -10,6 +10,7 @@ function liveClock(){
     let ampm = "AM";
     
     if(h>12){
+        h=h-12
         ampm="PM"
     }
 
@@ -22,9 +23,14 @@ function liveClock(){
     sec.innerText=s;
     ap.innerText=ampm;
 
+    if(ampm=="PM"){
+        ap.style.top="50%";
+    }
+
     setTimeout(() => {
         liveClock();
     },1000);
+
 }
 
 liveClock();
